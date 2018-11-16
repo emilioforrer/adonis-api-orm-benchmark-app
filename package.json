@@ -1,0 +1,46 @@
+{
+  "name": "adonis-api-orm-benchmark-app",
+  "version": "0.1.0",
+  "description": "Adonisjs API - Node.js ORMs benchmark",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis",
+    "orm",
+    "benchmark",
+    "typeorm",
+    "objection.js",
+    "lucid",
+    "sequelize"
+  ],
+  "author": "Emilio Forrer",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "lastest",
+    "@adonisjs/auth": "lastest",
+    "@adonisjs/bodyparser": "lastest",
+    "@adonisjs/cors": "lastest",
+    "@adonisjs/fold": "lastest",
+    "@adonisjs/framework": "lastest",
+    "@adonisjs/ignitor": "lastest",
+    "@adonisjs/lucid": "^lastest",
+    "@adonisjs/redis": "^2.0.7",
+    "@types/node": "^10.12.6",
+    "memcached": "^2.2.2",
+    "objection": "^1.2.6",
+    "pg": "^7.4.3",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.41.2",
+    "typeorm": "^0.2.8"
+  },
+  "devDependencies": {
+    "sqlite3": "^4.0.4"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}

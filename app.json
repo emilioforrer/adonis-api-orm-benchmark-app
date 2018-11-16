@@ -1,0 +1,13 @@
+{
+    "name"       : "adonis-api",
+    "script"     : "./server.js",
+    "instances"  : 8,
+    "exec_mode"  : "cluster",
+    "watch": false,
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "env_production": {
+      "NODE_ENV": "production"
+    }
+}
